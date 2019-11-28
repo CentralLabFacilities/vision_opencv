@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(cv_bridge)
 
+set(CMAKE_CXX_STANDARD 11)
+
 find_package(catkin REQUIRED COMPONENTS rosconsole sensor_msgs)
 
 if(NOT ANDROID)
